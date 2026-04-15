@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="outer" x1="50%" y1="100%" x2="50%" y2="0%">
+      <stop offset="0%" stop-color="#dc2626"/>
+      <stop offset="55%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+    <linearGradient id="inner" x1="50%" y1="100%" x2="50%" y2="0%">
+      <stop offset="0%" stop-color="#fb923c"/>
+      <stop offset="100%" stop-color="#fef08a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer flame body -->
+  <path d="M16 1 C13 5 9 8 8 13 C6 10 7 6 9 4 C4 8 3 14 4 19 C3 17 3 14 4 12 C1 17 2 23 5 27 C7 30 11 31 16 31 C21 31 25 30 27 27 C30 23 31 17 28 12 C29 14 29 17 28 19 C29 14 28 8 23 4 C25 6 26 10 24 13 C23 8 19 5 16 1 Z"
+        fill="url(#outer)"/>
+
+  <!-- Inner flame highlight -->
+  <path d="M16 11 C14.5 13.5 13 15.5 13 18 C12 16.5 12.5 14.5 13.5 13.5 C11.5 15.5 11 18 12 21 C13 23.5 14.5 25 16 25 C17.5 25 19 23.5 20 21 C21 18 20.5 15.5 18.5 13.5 C19.5 14.5 20 16.5 19 18 C19 15.5 17.5 13.5 16 11 Z"
+        fill="url(#inner)" opacity="0.9"/>
+</svg>
