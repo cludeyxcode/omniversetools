@@ -32,6 +32,7 @@ import DateDurationCalculator from './pages/tools/DateDurationCalculator'
 import TimezoneConverter from './pages/tools/TimezoneConverter'
 import Slugify from './pages/tools/Slugify'
 import ChmodCalculator from './pages/tools/ChmodCalculator'
+import WordFrequencyCounter from './pages/tools/WordFrequencyCounter'
 
 // Lazily loaded — heavier dependencies split into separate chunks
 const MarkdownPreviewer   = lazy(() => import('./pages/tools/MarkdownPreviewer'))
@@ -87,6 +88,7 @@ export default function App() {
             <Route path="/tools/timezone-converter" element={<TimezoneConverter />} />
             <Route path="/tools/slugify" element={<Slugify />} />
             <Route path="/tools/chmod-calculator" element={<ChmodCalculator />} />
+            <Route path="/tools/word-frequency-counter" element={<WordFrequencyCounter />} />
             <Route path="/tools/markdown-previewer" element={<MarkdownPreviewer />} />
             <Route path="/tools/diff-checker" element={<DiffChecker />} />
             <Route path="/tools/image-to-base64" element={<ImageToBase64 />} />
