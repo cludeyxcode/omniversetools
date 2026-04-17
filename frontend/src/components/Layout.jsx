@@ -17,6 +17,7 @@ const categories = [
     tools: [
       { path: '/tools/word-counter',            label: 'Word Counter' },
       { path: '/tools/word-frequency-counter',  label: 'Word Frequency Counter' },
+      { path: '/tools/reading-time-estimator',  label: 'Reading Time Estimator' },
       { path: '/tools/diff-checker',       label: 'Text Diff Checker' },
       { path: '/tools/text-sorter',        label: 'Text Sorter & Line Tools' },
       { path: '/tools/markdown-previewer', label: 'Markdown Previewer' },
