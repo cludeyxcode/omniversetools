@@ -6,7 +6,7 @@ import {
   Code2, CalendarClock, AlignLeft, Binary, Fingerprint, CaseSensitive, Database,
   Code, Percent, Cake, ArrowUpDown, Scale, Flame, Weight, Receipt, Landmark,
   TrendingUp, Shuffle, Calculator, CalendarRange, Globe, Slash, Table2, Palette,
-  Lock, BarChart2, BookOpen,
+  Lock, BarChart2, BookOpen, Type,
 } from 'lucide-react'
 
 const categories = [
@@ -26,6 +26,7 @@ const categories = [
       { path: '/tools/word-counter',           Icon: FileText,     title: 'Word & Character Counter',   desc: 'Paste any text to instantly see its word count, character count, sentence count, and more.' },
       { path: '/tools/word-frequency-counter', Icon: BarChart2,    title: 'Word Frequency Counter',     desc: 'Paste text and see every word ranked by occurrence — great for writers and SEO keyword analysis.' },
       { path: '/tools/reading-time-estimator', Icon: BookOpen,     title: 'Reading Time Estimator',     desc: 'Paste an article and instantly see how long it takes to read — adjust the WPM to match your pace.' },
+      { path: '/tools/character-limit-tester', Icon: Type,         title: 'Character Limit Tester',     desc: 'Live counters for Twitter (280), LinkedIn, SMS (160), meta description (160), and 9 more platforms.' },
       { path: '/tools/diff-checker',           Icon: GitCompare,   title: 'Text Diff Checker',          desc: 'Paste two versions of a text and see exactly what was added, removed, or changed.' },
       { path: '/tools/text-sorter',            Icon: ArrowUpDown,  title: 'Text Sorter & Line Tools',   desc: 'Sort lines alphabetically, remove duplicates, reverse, shuffle, or trim blank lines.' },
       { path: '/tools/markdown-previewer',     Icon: FileType2,    title: 'Markdown Previewer',         desc: 'Write Markdown on the left and see it rendered as formatted text on the right, live.' },
