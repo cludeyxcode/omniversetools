@@ -201,7 +201,7 @@ All 41 tools are intentionally distinct. Some pairs look similar but serve diffe
 - [x] **Word Frequency Counter** — paste text, see every word ranked by occurrence; useful for writers and SEO
 - [x] **Reading Time Estimator** — paste an article, get estimated reading time (WPM adjustable)
 - [x] **Character Limit Tester** — live counters for Twitter (280), LinkedIn (700), SMS (160), meta description (160), etc.
-- [ ] **Aspect Ratio Calculator** — given width × height, find the ratio and scale to any new dimension
+- [x] **Aspect Ratio Calculator** — given width × height, find the ratio and scale to any new dimension
 - [ ] **Roman Numeral Converter** — decimal ↔ Roman numerals, e.g. 2024 ↔ MMXXIV
 
 **Finance (completes the set)**

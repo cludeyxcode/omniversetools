@@ -6,7 +6,7 @@ import {
   Code2, CalendarClock, AlignLeft, Binary, Fingerprint, CaseSensitive, Database,
   Code, Percent, Cake, ArrowUpDown, Scale, Flame, Weight, Receipt, Landmark,
   TrendingUp, Shuffle, Calculator, CalendarRange, Globe, Slash, Table2, Palette,
-  Lock, BarChart2, BookOpen, Type,
+  Lock, BarChart2, BookOpen, Type, Ratio,
 } from 'lucide-react'
 
 const categories = [
@@ -71,7 +71,8 @@ const categories = [
       { path: '/tools/loan-calculator',        Icon: Landmark,     title: 'Loan & EMI Calculator',      desc: 'Calculate your monthly payment and view the full amortisation schedule for any loan.' },
       { path: '/tools/compound-interest',      Icon: TrendingUp,   title: 'Compound Interest Calculator',desc: 'See how an investment grows over time — add regular contributions and compare compound frequencies.' },
       { path: '/tools/percentage-calculator',  Icon: Percent,      title: 'Percentage Calculator',      desc: 'Six percentage calculators in one — discounts, tax, growth rates, tips, and more.' },
-      { path: '/tools/age-calculator',         Icon: Cake,         title: 'Age Calculator',             desc: 'Find out exactly how old someone is in years, months, days, weeks, and hours.' },
+      { path: '/tools/age-calculator',           Icon: Cake,         title: 'Age Calculator',             desc: 'Find out exactly how old someone is in years, months, days, weeks, and hours.' },
+      { path: '/tools/aspect-ratio-calculator',  Icon: Ratio,        title: 'Aspect Ratio Calculator',    desc: 'Enter width × height to find the simplified ratio, then scale to any new dimension instantly.' },
     ],
   },
   {

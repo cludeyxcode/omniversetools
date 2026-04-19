@@ -63,7 +63,8 @@ const categories = [
       { path: '/tools/loan-calculator',         label: 'Loan & EMI Calculator' },
       { path: '/tools/compound-interest',       label: 'Compound Interest Calculator' },
       { path: '/tools/percentage-calculator',   label: 'Percentage Calculator' },
-      { path: '/tools/age-calculator',          label: 'Age Calculator' },
+      { path: '/tools/age-calculator',           label: 'Age Calculator' },
+      { path: '/tools/aspect-ratio-calculator',  label: 'Aspect Ratio Calculator' },
     ],
   },
   {

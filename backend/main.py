@@ -72,6 +72,10 @@ TOOL_SLUGS = [
     "json-csv-converter",
     "color-palette-generator",
     "chmod-calculator",
+    "word-frequency-counter",
+    "reading-time-estimator",
+    "character-limit-tester",
+    "aspect-ratio-calculator",
 ]
 
 BASE_URL = "https://omniversetools.com"
