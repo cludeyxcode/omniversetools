@@ -36,6 +36,7 @@ import WordFrequencyCounter from './pages/tools/WordFrequencyCounter'
 import ReadingTimeEstimator from './pages/tools/ReadingTimeEstimator'
 import CharacterLimitTester from './pages/tools/CharacterLimitTester'
 import AspectRatioCalculator from './pages/tools/AspectRatioCalculator'
+import RomanNumeralConverter from './pages/tools/RomanNumeralConverter'
 
 // Lazily loaded — heavier dependencies split into separate chunks
 const MarkdownPreviewer   = lazy(() => import('./pages/tools/MarkdownPreviewer'))
@@ -95,6 +96,7 @@ export default function App() {
             <Route path="/tools/reading-time-estimator" element={<ReadingTimeEstimator />} />
             <Route path="/tools/character-limit-tester" element={<CharacterLimitTester />} />
             <Route path="/tools/aspect-ratio-calculator" element={<AspectRatioCalculator />} />
+            <Route path="/tools/roman-numeral-converter" element={<RomanNumeralConverter />} />
             <Route path="/tools/markdown-previewer" element={<MarkdownPreviewer />} />
             <Route path="/tools/diff-checker" element={<DiffChecker />} />
             <Route path="/tools/image-to-base64" element={<ImageToBase64 />} />

@@ -65,6 +65,7 @@ const categories = [
       { path: '/tools/percentage-calculator',   label: 'Percentage Calculator' },
       { path: '/tools/age-calculator',           label: 'Age Calculator' },
       { path: '/tools/aspect-ratio-calculator',  label: 'Aspect Ratio Calculator' },
+      { path: '/tools/roman-numeral-converter',  label: 'Roman Numeral Converter' },
     ],
   },
   {

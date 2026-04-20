@@ -6,7 +6,7 @@ import {
   Code2, CalendarClock, AlignLeft, Binary, Fingerprint, CaseSensitive, Database,
   Code, Percent, Cake, ArrowUpDown, Scale, Flame, Weight, Receipt, Landmark,
   TrendingUp, Shuffle, Calculator, CalendarRange, Globe, Slash, Table2, Palette,
-  Lock, BarChart2, BookOpen, Type, Ratio,
+  Lock, BarChart2, BookOpen, Type, Ratio, Crown,
 } from 'lucide-react'
 
 const categories = [
@@ -73,6 +73,7 @@ const categories = [
       { path: '/tools/percentage-calculator',  Icon: Percent,      title: 'Percentage Calculator',      desc: 'Six percentage calculators in one — discounts, tax, growth rates, tips, and more.' },
       { path: '/tools/age-calculator',           Icon: Cake,         title: 'Age Calculator',             desc: 'Find out exactly how old someone is in years, months, days, weeks, and hours.' },
       { path: '/tools/aspect-ratio-calculator',  Icon: Ratio,        title: 'Aspect Ratio Calculator',    desc: 'Enter width × height to find the simplified ratio, then scale to any new dimension instantly.' },
+      { path: '/tools/roman-numeral-converter',  Icon: Crown,        title: 'Roman Numeral Converter',    desc: 'Convert between decimal numbers and Roman numerals instantly — 1 to 3999, with step-by-step breakdown.' },
     ],
   },
   {

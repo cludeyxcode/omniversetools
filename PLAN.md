@@ -202,7 +202,7 @@ All 41 tools are intentionally distinct. Some pairs look similar but serve diffe
 - [x] **Reading Time Estimator** — paste an article, get estimated reading time (WPM adjustable)
 - [x] **Character Limit Tester** — live counters for Twitter (280), LinkedIn (700), SMS (160), meta description (160), etc.
 - [x] **Aspect Ratio Calculator** — given width × height, find the ratio and scale to any new dimension
-- [ ] **Roman Numeral Converter** — decimal ↔ Roman numerals, e.g. 2024 ↔ MMXXIV
+- [x] **Roman Numeral Converter** — decimal ↔ Roman numerals, e.g. 2024 ↔ MMXXIV
 
 **Finance (completes the set)**
 - [ ] **VAT / Sales Tax Calculator** — add/remove tax from a price; pick common rates or enter custom %

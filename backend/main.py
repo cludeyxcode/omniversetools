@@ -76,6 +76,7 @@ TOOL_SLUGS = [
     "reading-time-estimator",
     "character-limit-tester",
     "aspect-ratio-calculator",
+    "roman-numeral-converter",
 ]
 
 BASE_URL = "https://omniversetools.com"
