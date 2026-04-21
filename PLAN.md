@@ -205,7 +205,7 @@ All 41 tools are intentionally distinct. Some pairs look similar but serve diffe
 - [x] **Roman Numeral Converter** — decimal ↔ Roman numerals, e.g. 2024 ↔ MMXXIV
 
 **Finance (completes the set)**
-- [ ] **VAT / Sales Tax Calculator** — add/remove tax from a price; pick common rates or enter custom %
+- [x] **VAT / Sales Tax Calculator** — add/remove tax from a price; pick common rates or enter custom %
 - [ ] **Currency Formatter** — format a number as money in any locale/currency (client-side, no live rates)
 - [ ] **Mortgage Calculator** — down payment, LTV, monthly payment + amortisation
 

@@ -77,6 +77,7 @@ TOOL_SLUGS = [
     "character-limit-tester",
     "aspect-ratio-calculator",
     "roman-numeral-converter",
+    "vat-calculator",
 ]
 
 BASE_URL = "https://omniversetools.com"
