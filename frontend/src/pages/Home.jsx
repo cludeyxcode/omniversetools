@@ -6,7 +6,7 @@ import {
   Code2, CalendarClock, AlignLeft, Binary, Fingerprint, CaseSensitive, Database,
   Code, Percent, Cake, ArrowUpDown, Scale, Flame, Weight, Receipt, Landmark,
   TrendingUp, Shuffle, Calculator, CalendarRange, Globe, Slash, Table2, Palette,
-  Lock, BarChart2, BookOpen, Type, Ratio, Crown, Tag,
+  Lock, BarChart2, BookOpen, Type, Ratio, Crown, Tag, DollarSign,
 } from 'lucide-react'
 
 const categories = [
@@ -75,6 +75,7 @@ const categories = [
       { path: '/tools/aspect-ratio-calculator',  Icon: Ratio,        title: 'Aspect Ratio Calculator',    desc: 'Enter width × height to find the simplified ratio, then scale to any new dimension instantly.' },
       { path: '/tools/roman-numeral-converter',  Icon: Crown,        title: 'Roman Numeral Converter',    desc: 'Convert between decimal numbers and Roman numerals instantly — 1 to 3999, with step-by-step breakdown.' },
       { path: '/tools/vat-calculator',           Icon: Tag,          title: 'VAT / Sales Tax Calculator', desc: 'Add or remove VAT and sales tax from any price — pick a common rate or enter a custom percentage.' },
+      { path: '/tools/currency-formatter',       Icon: DollarSign,   title: 'Currency Formatter',         desc: 'Format any number as money in any locale and currency — symbol, code, or full name. No exchange rates.' },
     ],
   },
   {

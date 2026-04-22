@@ -67,6 +67,7 @@ const categories = [
       { path: '/tools/aspect-ratio-calculator',  label: 'Aspect Ratio Calculator' },
       { path: '/tools/roman-numeral-converter',  label: 'Roman Numeral Converter' },
       { path: '/tools/vat-calculator',           label: 'VAT / Sales Tax Calculator' },
+      { path: '/tools/currency-formatter',       label: 'Currency Formatter' },
     ],
   },
   {

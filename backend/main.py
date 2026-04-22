@@ -78,6 +78,7 @@ TOOL_SLUGS = [
     "aspect-ratio-calculator",
     "roman-numeral-converter",
     "vat-calculator",
+    "currency-formatter",
 ]
 
 BASE_URL = "https://omniversetools.com"

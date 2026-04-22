@@ -206,7 +206,7 @@ All 41 tools are intentionally distinct. Some pairs look similar but serve diffe
 
 **Finance (completes the set)**
 - [x] **VAT / Sales Tax Calculator** — add/remove tax from a price; pick common rates or enter custom %
-- [ ] **Currency Formatter** — format a number as money in any locale/currency (client-side, no live rates)
+- [x] **Currency Formatter** — format a number as money in any locale/currency (client-side, no live rates)
 - [ ] **Mortgage Calculator** — down payment, LTV, monthly payment + amortisation
 
 **Health (completes the set)**
