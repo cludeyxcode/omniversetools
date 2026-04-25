@@ -39,6 +39,7 @@ import AspectRatioCalculator from './pages/tools/AspectRatioCalculator'
 import RomanNumeralConverter from './pages/tools/RomanNumeralConverter'
 import VatCalculator from './pages/tools/VatCalculator'
 import CurrencyFormatter from './pages/tools/CurrencyFormatter'
+import MortgageCalculator from './pages/tools/MortgageCalculator'
 
 // Lazily loaded — heavier dependencies split into separate chunks
 const MarkdownPreviewer   = lazy(() => import('./pages/tools/MarkdownPreviewer'))
@@ -101,6 +102,7 @@ export default function App() {
             <Route path="/tools/roman-numeral-converter" element={<RomanNumeralConverter />} />
             <Route path="/tools/vat-calculator" element={<VatCalculator />} />
             <Route path="/tools/currency-formatter" element={<CurrencyFormatter />} />
+            <Route path="/tools/mortgage-calculator" element={<MortgageCalculator />} />
             <Route path="/tools/markdown-previewer" element={<MarkdownPreviewer />} />
             <Route path="/tools/diff-checker" element={<DiffChecker />} />
             <Route path="/tools/image-to-base64" element={<ImageToBase64 />} />

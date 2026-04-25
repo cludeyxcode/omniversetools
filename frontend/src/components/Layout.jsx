@@ -68,6 +68,7 @@ const categories = [
       { path: '/tools/roman-numeral-converter',  label: 'Roman Numeral Converter' },
       { path: '/tools/vat-calculator',           label: 'VAT / Sales Tax Calculator' },
       { path: '/tools/currency-formatter',       label: 'Currency Formatter' },
+      { path: '/tools/mortgage-calculator',      label: 'Mortgage Calculator' },
     ],
   },
   {

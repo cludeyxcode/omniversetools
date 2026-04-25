@@ -79,6 +79,7 @@ TOOL_SLUGS = [
     "roman-numeral-converter",
     "vat-calculator",
     "currency-formatter",
+    "mortgage-calculator",
 ]
 
 BASE_URL = "https://omniversetools.com"
