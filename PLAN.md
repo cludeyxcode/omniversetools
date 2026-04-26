@@ -210,7 +210,7 @@ All 41 tools are intentionally distinct. Some pairs look similar but serve diffe
 - [x] **Mortgage Calculator** — down payment, LTV, monthly payment + amortisation
 
 **Health (completes the set)**
-- [ ] **Body Fat Percentage Calculator** — US Navy method (neck + waist + height)
+- [x] **Body Fat Percentage Calculator** — US Navy method (neck + waist + height)
 - [ ] **Water Intake Calculator** — daily water needs based on weight and activity level
 
 ### New Tools — Batch 7 (Personal / Power-User Tools)

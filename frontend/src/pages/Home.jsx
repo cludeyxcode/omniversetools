@@ -6,7 +6,7 @@ import {
   Code2, CalendarClock, AlignLeft, Binary, Fingerprint, CaseSensitive, Database,
   Code, Percent, Cake, ArrowUpDown, Scale, Flame, Weight, Receipt, Landmark,
   TrendingUp, Shuffle, Calculator, CalendarRange, Globe, Slash, Table2, Palette,
-  Lock, BarChart2, BookOpen, Type, Ratio, Crown, Tag, DollarSign, Building2,
+  Lock, BarChart2, BookOpen, Type, Ratio, Crown, Tag, DollarSign, Building2, Activity,
 } from 'lucide-react'
 
 const categories = [
@@ -77,6 +77,7 @@ const categories = [
       { path: '/tools/vat-calculator',           Icon: Tag,          title: 'VAT / Sales Tax Calculator', desc: 'Add or remove VAT and sales tax from any price — pick a common rate or enter a custom percentage.' },
       { path: '/tools/currency-formatter',       Icon: DollarSign,   title: 'Currency Formatter',         desc: 'Format any number as money in any locale and currency — symbol, code, or full name. No exchange rates.' },
       { path: '/tools/mortgage-calculator',      Icon: Building2,    title: 'Mortgage Calculator',         desc: 'Enter home price, down payment, rate, and term to get your monthly payment, LTV ratio, and full amortisation schedule.' },
+      { path: '/tools/body-fat-calculator',      Icon: Activity,     title: 'Body Fat Percentage Calculator', desc: 'Estimate body fat % using the US Navy method — enter neck, waist, and height (plus hip for women). No calipers needed.' },
     ],
   },
   {

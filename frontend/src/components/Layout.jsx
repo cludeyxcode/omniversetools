@@ -69,6 +69,7 @@ const categories = [
       { path: '/tools/vat-calculator',           label: 'VAT / Sales Tax Calculator' },
       { path: '/tools/currency-formatter',       label: 'Currency Formatter' },
       { path: '/tools/mortgage-calculator',      label: 'Mortgage Calculator' },
+      { path: '/tools/body-fat-calculator',      label: 'Body Fat Calculator' },
     ],
   },
   {

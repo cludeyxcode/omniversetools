@@ -80,6 +80,7 @@ TOOL_SLUGS = [
     "vat-calculator",
     "currency-formatter",
     "mortgage-calculator",
+    "body-fat-calculator",
 ]
 
 BASE_URL = "https://omniversetools.com"
