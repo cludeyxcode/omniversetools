@@ -70,6 +70,7 @@ const categories = [
       { path: '/tools/currency-formatter',       label: 'Currency Formatter' },
       { path: '/tools/mortgage-calculator',      label: 'Mortgage Calculator' },
       { path: '/tools/body-fat-calculator',      label: 'Body Fat Calculator' },
+      { path: '/tools/water-intake-calculator',  label: 'Water Intake Calculator' },
     ],
   },
   {

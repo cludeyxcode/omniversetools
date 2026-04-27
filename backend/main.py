@@ -81,6 +81,7 @@ TOOL_SLUGS = [
     "currency-formatter",
     "mortgage-calculator",
     "body-fat-calculator",
+    "water-intake-calculator",
 ]
 
 BASE_URL = "https://omniversetools.com"

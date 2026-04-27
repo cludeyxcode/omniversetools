@@ -211,7 +211,7 @@ All 41 tools are intentionally distinct. Some pairs look similar but serve diffe
 
 **Health (completes the set)**
 - [x] **Body Fat Percentage Calculator** — US Navy method (neck + waist + height)
-- [ ] **Water Intake Calculator** — daily water needs based on weight and activity level
+- [x] **Water Intake Calculator** — daily water needs based on weight and activity level
 
 ### New Tools — Batch 7 (Personal / Power-User Tools)
 

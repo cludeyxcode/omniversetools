@@ -7,6 +7,7 @@ import {
   Code, Percent, Cake, ArrowUpDown, Scale, Flame, Weight, Receipt, Landmark,
   TrendingUp, Shuffle, Calculator, CalendarRange, Globe, Slash, Table2, Palette,
   Lock, BarChart2, BookOpen, Type, Ratio, Crown, Tag, DollarSign, Building2, Activity,
+  Droplets,
 } from 'lucide-react'
 
 const categories = [
@@ -78,6 +79,7 @@ const categories = [
       { path: '/tools/currency-formatter',       Icon: DollarSign,   title: 'Currency Formatter',         desc: 'Format any number as money in any locale and currency — symbol, code, or full name. No exchange rates.' },
       { path: '/tools/mortgage-calculator',      Icon: Building2,    title: 'Mortgage Calculator',         desc: 'Enter home price, down payment, rate, and term to get your monthly payment, LTV ratio, and full amortisation schedule.' },
       { path: '/tools/body-fat-calculator',      Icon: Activity,     title: 'Body Fat Percentage Calculator', desc: 'Estimate body fat % using the US Navy method — enter neck, waist, and height (plus hip for women). No calipers needed.' },
+      { path: '/tools/water-intake-calculator',  Icon: Droplets,     title: 'Water Intake Calculator',        desc: 'Find your recommended daily water intake based on your weight, activity level, and climate. Results in litres, oz, cups, and glasses.' },
     ],
   },
   {
