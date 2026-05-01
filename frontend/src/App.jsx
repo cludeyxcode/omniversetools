@@ -42,6 +42,7 @@ import CurrencyFormatter from './pages/tools/CurrencyFormatter'
 import MortgageCalculator from './pages/tools/MortgageCalculator'
 import BodyFatCalculator from './pages/tools/BodyFatCalculator'
 import WaterIntakeCalculator from './pages/tools/WaterIntakeCalculator'
+import CssGradientGenerator from './pages/tools/CssGradientGenerator'
 
 // Lazily loaded — heavier dependencies split into separate chunks
 const MarkdownPreviewer   = lazy(() => import('./pages/tools/MarkdownPreviewer'))
@@ -107,6 +108,7 @@ export default function App() {
             <Route path="/tools/mortgage-calculator" element={<MortgageCalculator />} />
             <Route path="/tools/body-fat-calculator" element={<BodyFatCalculator />} />
             <Route path="/tools/water-intake-calculator" element={<WaterIntakeCalculator />} />
+            <Route path="/tools/css-gradient-generator" element={<CssGradientGenerator />} />
             <Route path="/tools/markdown-previewer" element={<MarkdownPreviewer />} />
             <Route path="/tools/diff-checker" element={<DiffChecker />} />
             <Route path="/tools/image-to-base64" element={<ImageToBase64 />} />

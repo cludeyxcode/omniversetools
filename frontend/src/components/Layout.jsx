@@ -49,7 +49,8 @@ const categories = [
       { path: '/tools/css-minifier',         label: 'CSS Minifier / Beautifier' },
       { path: '/tools/html-minifier',        label: 'HTML Minifier / Beautifier' },
       { path: '/tools/cron-explainer',       label: 'CRON Explainer' },
-      { path: '/tools/chmod-calculator',     label: 'Chmod Calculator' },
+      { path: '/tools/chmod-calculator',       label: 'Chmod Calculator' },
+      { path: '/tools/css-gradient-generator', label: 'CSS Gradient Generator' },
     ],
   },
   {

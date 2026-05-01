@@ -82,6 +82,7 @@ TOOL_SLUGS = [
     "mortgage-calculator",
     "body-fat-calculator",
     "water-intake-calculator",
+    "css-gradient-generator",
 ]
 
 BASE_URL = "https://omniversetools.com"
