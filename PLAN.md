@@ -220,7 +220,7 @@ All 100% client-side, no external dependencies.
 
 **CSS / Frontend dev** *(open these constantly while building)*
 - [x] **CSS Gradient Generator** — visual gradient builder (angle, stops, colours) → copy CSS `linear-gradient()` code
-- [ ] **CSS Box Shadow Generator** — sliders for offset, blur, spread, colour → copy `box-shadow` rule; multiple layers supported
+- [x] **CSS Box Shadow Generator** — sliders for offset, blur, spread, colour → copy `box-shadow` rule; multiple layers supported
 - [ ] **Pixel ↔ REM / EM Converter** — instant px↔rem↔em at any base font size; table showing all common sizes
 - [ ] **Flexbox / Grid Cheatsheet** — interactive property reference, click a property to see the effect live
 

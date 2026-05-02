@@ -83,6 +83,7 @@ TOOL_SLUGS = [
     "body-fat-calculator",
     "water-intake-calculator",
     "css-gradient-generator",
+    "css-box-shadow-generator",
 ]
 
 BASE_URL = "https://omniversetools.com"

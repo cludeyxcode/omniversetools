@@ -9,6 +9,7 @@ import {
   Lock, BarChart2, BookOpen, Type, Ratio, Crown, Tag, DollarSign, Building2, Activity,
   Droplets,
   Layers,
+  Square,
 } from 'lucide-react'
 
 const categories = [
@@ -60,7 +61,8 @@ const categories = [
       { path: '/tools/html-minifier',          Icon: Code2,        title: 'HTML Minifier & Beautifier', desc: 'Strip whitespace from HTML to make pages load faster, or prettify minified HTML to edit it.' },
       { path: '/tools/cron-explainer',         Icon: CalendarClock,title: 'CRON Expression Explainer',  desc: 'Paste a cron schedule like "0 9 * * 1" and get a plain-English explanation of when it runs.' },
       { path: '/tools/chmod-calculator',       Icon: Lock,         title: 'Chmod Calculator',           desc: 'Build Unix file permissions visually — click checkboxes and get the octal number and chmod command.' },
-      { path: '/tools/css-gradient-generator', Icon: Layers,       title: 'CSS Gradient Generator',     desc: 'Build a linear or radial CSS gradient visually — adjust angle and colour stops, then copy the CSS.' },
+      { path: '/tools/css-gradient-generator',    Icon: Layers,  title: 'CSS Gradient Generator',      desc: 'Build a linear or radial CSS gradient visually — adjust angle and colour stops, then copy the CSS.' },
+      { path: '/tools/css-box-shadow-generator',  Icon: Square,  title: 'CSS Box Shadow Generator',    desc: 'Build a CSS box shadow visually — adjust offset, blur, spread, and colour for multiple layers, then copy the rule.' },
     ],
   },
   {

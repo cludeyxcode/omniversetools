@@ -50,7 +50,8 @@ const categories = [
       { path: '/tools/html-minifier',        label: 'HTML Minifier / Beautifier' },
       { path: '/tools/cron-explainer',       label: 'CRON Explainer' },
       { path: '/tools/chmod-calculator',       label: 'Chmod Calculator' },
-      { path: '/tools/css-gradient-generator', label: 'CSS Gradient Generator' },
+      { path: '/tools/css-gradient-generator',   label: 'CSS Gradient Generator' },
+      { path: '/tools/css-box-shadow-generator', label: 'CSS Box Shadow Generator' },
     ],
   },
   {
