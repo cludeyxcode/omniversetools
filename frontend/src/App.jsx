@@ -44,6 +44,7 @@ import BodyFatCalculator from './pages/tools/BodyFatCalculator'
 import WaterIntakeCalculator from './pages/tools/WaterIntakeCalculator'
 import CssGradientGenerator from './pages/tools/CssGradientGenerator'
 import CssBoxShadowGenerator from './pages/tools/CssBoxShadowGenerator'
+import PixelRemConverter from './pages/tools/PixelRemConverter'
 
 // Lazily loaded — heavier dependencies split into separate chunks
 const MarkdownPreviewer   = lazy(() => import('./pages/tools/MarkdownPreviewer'))
@@ -111,6 +112,7 @@ export default function App() {
             <Route path="/tools/water-intake-calculator" element={<WaterIntakeCalculator />} />
             <Route path="/tools/css-gradient-generator" element={<CssGradientGenerator />} />
             <Route path="/tools/css-box-shadow-generator" element={<CssBoxShadowGenerator />} />
+            <Route path="/tools/px-rem-converter" element={<PixelRemConverter />} />
             <Route path="/tools/markdown-previewer" element={<MarkdownPreviewer />} />
             <Route path="/tools/diff-checker" element={<DiffChecker />} />
             <Route path="/tools/image-to-base64" element={<ImageToBase64 />} />

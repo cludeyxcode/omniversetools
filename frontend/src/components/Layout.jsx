@@ -52,6 +52,7 @@ const categories = [
       { path: '/tools/chmod-calculator',       label: 'Chmod Calculator' },
       { path: '/tools/css-gradient-generator',   label: 'CSS Gradient Generator' },
       { path: '/tools/css-box-shadow-generator', label: 'CSS Box Shadow Generator' },
+      { path: '/tools/px-rem-converter',         label: 'Pixel ↔ REM / EM Converter' },
     ],
   },
   {

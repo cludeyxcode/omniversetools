@@ -84,6 +84,7 @@ TOOL_SLUGS = [
     "water-intake-calculator",
     "css-gradient-generator",
     "css-box-shadow-generator",
+    "px-rem-converter",
 ]
 
 BASE_URL = "https://omniversetools.com"
