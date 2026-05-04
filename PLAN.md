@@ -222,7 +222,7 @@ All 100% client-side, no external dependencies.
 - [x] **CSS Gradient Generator** — visual gradient builder (angle, stops, colours) → copy CSS `linear-gradient()` code
 - [x] **CSS Box Shadow Generator** — sliders for offset, blur, spread, colour → copy `box-shadow` rule; multiple layers supported
 - [x] **Pixel ↔ REM / EM Converter** — instant px↔rem↔em at any base font size; table showing all common sizes
-- [ ] **Flexbox / Grid Cheatsheet** — interactive property reference, click a property to see the effect live
+- [x] **Flexbox / Grid Cheatsheet** — interactive property reference, click a property to see the effect live
 
 **Developer productivity** *(things you'd use while debugging or writing code)*
 - [ ] **YAML ↔ JSON Converter** — paste YAML, get JSON (and vice versa); uses `js-yaml`

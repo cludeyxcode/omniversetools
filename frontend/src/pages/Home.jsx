@@ -11,6 +11,7 @@ import {
   Layers,
   Square,
   Maximize2,
+  LayoutGrid,
 } from 'lucide-react'
 
 const categories = [
@@ -65,6 +66,7 @@ const categories = [
       { path: '/tools/css-gradient-generator',    Icon: Layers,  title: 'CSS Gradient Generator',      desc: 'Build a linear or radial CSS gradient visually — adjust angle and colour stops, then copy the CSS.' },
       { path: '/tools/css-box-shadow-generator',  Icon: Square,    title: 'CSS Box Shadow Generator',    desc: 'Build a CSS box shadow visually — adjust offset, blur, spread, and colour for multiple layers, then copy the rule.' },
       { path: '/tools/px-rem-converter',          Icon: Maximize2, title: 'Pixel ↔ REM / EM Converter',   desc: 'Convert between px, rem, and em instantly. Set your base font size and type in any field to update the rest.' },
+      { path: '/tools/flexbox-grid-cheatsheet',  Icon: LayoutGrid, title: 'Flexbox & CSS Grid Cheatsheet', desc: 'Interactive property reference for Flexbox and CSS Grid — click any value to see the live effect.' },
     ],
   },
   {

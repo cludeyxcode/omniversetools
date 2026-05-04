@@ -45,6 +45,7 @@ import WaterIntakeCalculator from './pages/tools/WaterIntakeCalculator'
 import CssGradientGenerator from './pages/tools/CssGradientGenerator'
 import CssBoxShadowGenerator from './pages/tools/CssBoxShadowGenerator'
 import PixelRemConverter from './pages/tools/PixelRemConverter'
+import FlexboxGridCheatsheet from './pages/tools/FlexboxGridCheatsheet'
 
 // Lazily loaded — heavier dependencies split into separate chunks
 const MarkdownPreviewer   = lazy(() => import('./pages/tools/MarkdownPreviewer'))
@@ -113,6 +114,7 @@ export default function App() {
             <Route path="/tools/css-gradient-generator" element={<CssGradientGenerator />} />
             <Route path="/tools/css-box-shadow-generator" element={<CssBoxShadowGenerator />} />
             <Route path="/tools/px-rem-converter" element={<PixelRemConverter />} />
+            <Route path="/tools/flexbox-grid-cheatsheet" element={<FlexboxGridCheatsheet />} />
             <Route path="/tools/markdown-previewer" element={<MarkdownPreviewer />} />
             <Route path="/tools/diff-checker" element={<DiffChecker />} />
             <Route path="/tools/image-to-base64" element={<ImageToBase64 />} />

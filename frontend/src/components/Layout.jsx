@@ -53,6 +53,7 @@ const categories = [
       { path: '/tools/css-gradient-generator',   label: 'CSS Gradient Generator' },
       { path: '/tools/css-box-shadow-generator', label: 'CSS Box Shadow Generator' },
       { path: '/tools/px-rem-converter',         label: 'Pixel ↔ REM / EM Converter' },
+      { path: '/tools/flexbox-grid-cheatsheet', label: 'Flexbox & CSS Grid Cheatsheet' },
     ],
   },
   {

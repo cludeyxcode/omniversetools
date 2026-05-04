@@ -85,6 +85,7 @@ TOOL_SLUGS = [
     "css-gradient-generator",
     "css-box-shadow-generator",
     "px-rem-converter",
+    "flexbox-grid-cheatsheet",
 ]
 
 BASE_URL = "https://omniversetools.com"
