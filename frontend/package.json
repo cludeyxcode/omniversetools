@@ -12,6 +12,7 @@
   "dependencies": {
     "cronstrue": "^3.14.0",
     "diff": "^8.0.4",
+    "js-yaml": "^4.1.1",
     "lucide-react": "^1.8.0",
     "marked": "^18.0.0",
     "qrcode": "^1.5.4",

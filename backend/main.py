@@ -86,6 +86,7 @@ TOOL_SLUGS = [
     "css-box-shadow-generator",
     "px-rem-converter",
     "flexbox-grid-cheatsheet",
+    "yaml-json-converter",
 ]
 
 BASE_URL = "https://omniversetools.com"

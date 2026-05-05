@@ -225,7 +225,7 @@ All 100% client-side, no external dependencies.
 - [x] **Flexbox / Grid Cheatsheet** — interactive property reference, click a property to see the effect live
 
 **Developer productivity** *(things you'd use while debugging or writing code)*
-- [ ] **YAML ↔ JSON Converter** — paste YAML, get JSON (and vice versa); uses `js-yaml`
+- [x] **YAML ↔ JSON Converter** — paste YAML, get JSON (and vice versa); uses `js-yaml`
 - [ ] **URL Parser / Builder** — paste any URL, see protocol / host / path / query params / fragment in a table; edit fields and copy the rebuilt URL
 - [ ] **HTTP Status Code Reference** — searchable list of all codes (1xx–5xx) with plain-English description and when to use each
 - [ ] **Cron Expression Builder** — GUI complement to the existing explainer: pick schedule via dropdowns, get the cron string
