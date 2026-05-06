@@ -13,6 +13,7 @@ import {
   Maximize2,
   LayoutGrid,
   ArrowLeftRight,
+  Globe2,
 } from 'lucide-react'
 
 const categories = [
@@ -69,6 +70,7 @@ const categories = [
       { path: '/tools/px-rem-converter',          Icon: Maximize2, title: 'Pixel ↔ REM / EM Converter',   desc: 'Convert between px, rem, and em instantly. Set your base font size and type in any field to update the rest.' },
       { path: '/tools/flexbox-grid-cheatsheet',  Icon: LayoutGrid, title: 'Flexbox & CSS Grid Cheatsheet', desc: 'Interactive property reference for Flexbox and CSS Grid — click any value to see the live effect.' },
       { path: '/tools/yaml-json-converter',       Icon: ArrowLeftRight, title: 'YAML ↔ JSON Converter',       desc: 'Paste YAML and get JSON (or vice versa) instantly — bidirectional conversion, runs entirely in your browser.' },
+      { path: '/tools/url-parser',                Icon: Globe2,         title: 'URL Parser / Builder',         desc: 'Paste any URL to break it into protocol, host, path, query params, and fragment — edit each field to rebuild the URL.' },
     ],
   },
   {

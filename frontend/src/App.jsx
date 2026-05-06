@@ -47,6 +47,7 @@ import CssBoxShadowGenerator from './pages/tools/CssBoxShadowGenerator'
 import PixelRemConverter from './pages/tools/PixelRemConverter'
 import FlexboxGridCheatsheet from './pages/tools/FlexboxGridCheatsheet'
 import YamlJsonConverter from './pages/tools/YamlJsonConverter'
+import UrlParser from './pages/tools/UrlParser'
 
 // Lazily loaded — heavier dependencies split into separate chunks
 const MarkdownPreviewer   = lazy(() => import('./pages/tools/MarkdownPreviewer'))
@@ -117,6 +118,7 @@ export default function App() {
             <Route path="/tools/px-rem-converter" element={<PixelRemConverter />} />
             <Route path="/tools/flexbox-grid-cheatsheet" element={<FlexboxGridCheatsheet />} />
             <Route path="/tools/yaml-json-converter" element={<YamlJsonConverter />} />
+            <Route path="/tools/url-parser" element={<UrlParser />} />
             <Route path="/tools/markdown-previewer" element={<MarkdownPreviewer />} />
             <Route path="/tools/diff-checker" element={<DiffChecker />} />
             <Route path="/tools/image-to-base64" element={<ImageToBase64 />} />
