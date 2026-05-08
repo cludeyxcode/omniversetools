@@ -88,6 +88,7 @@ TOOL_SLUGS = [
     "flexbox-grid-cheatsheet",
     "yaml-json-converter",
     "url-parser",
+    "http-status-codes",
 ]
 
 BASE_URL = "https://omniversetools.com"

@@ -56,6 +56,7 @@ const categories = [
       { path: '/tools/flexbox-grid-cheatsheet', label: 'Flexbox & CSS Grid Cheatsheet' },
       { path: '/tools/yaml-json-converter',      label: 'YAML ↔ JSON Converter' },
       { path: '/tools/url-parser',               label: 'URL Parser / Builder' },
+      { path: '/tools/http-status-codes',        label: 'HTTP Status Code Reference' },
     ],
   },
   {
