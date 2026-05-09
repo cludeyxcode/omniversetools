@@ -15,6 +15,7 @@ import {
   ArrowLeftRight,
   Globe2,
   Server,
+  Sliders,
 } from 'lucide-react'
 
 const categories = [
@@ -73,6 +74,7 @@ const categories = [
       { path: '/tools/yaml-json-converter',       Icon: ArrowLeftRight, title: 'YAML ↔ JSON Converter',       desc: 'Paste YAML and get JSON (or vice versa) instantly — bidirectional conversion, runs entirely in your browser.' },
       { path: '/tools/url-parser',                Icon: Globe2,         title: 'URL Parser / Builder',         desc: 'Paste any URL to break it into protocol, host, path, query params, and fragment — edit each field to rebuild the URL.' },
       { path: '/tools/http-status-codes',         Icon: Server,         title: 'HTTP Status Code Reference',   desc: 'Searchable reference for all HTTP status codes — 1xx to 5xx — with plain-English descriptions and when to use each.' },
+      { path: '/tools/cron-builder',              Icon: Sliders,        title: 'Cron Expression Builder',       desc: 'Build a cron schedule visually — pick options for each field (minute, hour, day, month, weekday) and get the cron string.' },
     ],
   },
   {

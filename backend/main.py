@@ -89,6 +89,7 @@ TOOL_SLUGS = [
     "yaml-json-converter",
     "url-parser",
     "http-status-codes",
+    "cron-builder",
 ]
 
 BASE_URL = "https://omniversetools.com"
