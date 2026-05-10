@@ -90,6 +90,7 @@ TOOL_SLUGS = [
     "url-parser",
     "http-status-codes",
     "cron-builder",
+    "jwt-generator",
 ]
 
 BASE_URL = "https://omniversetools.com"

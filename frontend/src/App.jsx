@@ -50,6 +50,7 @@ import YamlJsonConverter from './pages/tools/YamlJsonConverter'
 import UrlParser from './pages/tools/UrlParser'
 import HttpStatusCodes from './pages/tools/HttpStatusCodes'
 import CronBuilder from './pages/tools/CronBuilder'
+import JwtGenerator from './pages/tools/JwtGenerator'
 
 // Lazily loaded — heavier dependencies split into separate chunks
 const MarkdownPreviewer   = lazy(() => import('./pages/tools/MarkdownPreviewer'))
@@ -123,6 +124,7 @@ export default function App() {
             <Route path="/tools/url-parser" element={<UrlParser />} />
             <Route path="/tools/http-status-codes" element={<HttpStatusCodes />} />
             <Route path="/tools/cron-builder" element={<CronBuilder />} />
+            <Route path="/tools/jwt-generator" element={<JwtGenerator />} />
             <Route path="/tools/markdown-previewer" element={<MarkdownPreviewer />} />
             <Route path="/tools/diff-checker" element={<DiffChecker />} />
             <Route path="/tools/image-to-base64" element={<ImageToBase64 />} />

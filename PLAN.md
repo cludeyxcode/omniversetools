@@ -229,7 +229,7 @@ All 100% client-side, no external dependencies.
 - [x] **URL Parser / Builder** — paste any URL, see protocol / host / path / query params / fragment in a table; edit fields and copy the rebuilt URL
 - [x] **HTTP Status Code Reference** — searchable list of all codes (1xx–5xx) with plain-English description and when to use each
 - [x] **Cron Expression Builder** — GUI complement to the existing explainer: pick schedule via dropdowns, get the cron string
-- [ ] **JWT Generator** — complement the decoder; generate HS256/HS384/HS512 tokens client-side for testing
+- [x] **JWT Generator** — complement the decoder; generate HS256/HS384/HS512 tokens client-side for testing
 - [ ] **Markdown Table Generator** — paste tab/comma-separated data, get a formatted `| col | col |` Markdown table instantly
 - [ ] **.gitignore Generator** — select your stack (Node, Python, Django, React, Go, Rust, etc.) → get the right `.gitignore` content
 

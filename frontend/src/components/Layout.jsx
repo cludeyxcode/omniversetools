@@ -58,6 +58,7 @@ const categories = [
       { path: '/tools/url-parser',               label: 'URL Parser / Builder' },
       { path: '/tools/http-status-codes',        label: 'HTTP Status Code Reference' },
       { path: '/tools/cron-builder',             label: 'Cron Expression Builder' },
+      { path: '/tools/jwt-generator',            label: 'JWT Generator' },
     ],
   },
   {
