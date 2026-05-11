@@ -17,6 +17,7 @@ import {
   Server,
   Sliders,
   Key,
+  TableProperties,
 } from 'lucide-react'
 
 const categories = [
@@ -77,6 +78,7 @@ const categories = [
       { path: '/tools/http-status-codes',         Icon: Server,         title: 'HTTP Status Code Reference',   desc: 'Searchable reference for all HTTP status codes — 1xx to 5xx — with plain-English descriptions and when to use each.' },
       { path: '/tools/cron-builder',              Icon: Sliders,        title: 'Cron Expression Builder',       desc: 'Build a cron schedule visually — pick options for each field (minute, hour, day, month, weekday) and get the cron string.' },
       { path: '/tools/jwt-generator',             Icon: Key,            title: 'JWT Generator',                  desc: 'Generate signed HS256, HS384, or HS512 JSON Web Tokens in your browser — set payload claims and secret, copy the token.' },
+      { path: '/tools/markdown-table-generator',  Icon: TableProperties, title: 'Markdown Table Generator',        desc: 'Paste CSV or tab-separated data and instantly get a formatted | col | col | Markdown table with column alignment options.' },
     ],
   },
   {

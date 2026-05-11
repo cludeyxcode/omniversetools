@@ -59,6 +59,7 @@ const categories = [
       { path: '/tools/http-status-codes',        label: 'HTTP Status Code Reference' },
       { path: '/tools/cron-builder',             label: 'Cron Expression Builder' },
       { path: '/tools/jwt-generator',            label: 'JWT Generator' },
+      { path: '/tools/markdown-table-generator', label: 'Markdown Table Generator' },
     ],
   },
   {
