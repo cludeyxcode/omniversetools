@@ -92,6 +92,7 @@ TOOL_SLUGS = [
     "cron-builder",
     "jwt-generator",
     "markdown-table-generator",
+    "gitignore-generator",
 ]
 
 BASE_URL = "https://omniversetools.com"

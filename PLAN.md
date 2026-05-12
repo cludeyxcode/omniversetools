@@ -231,7 +231,7 @@ All 100% client-side, no external dependencies.
 - [x] **Cron Expression Builder** — GUI complement to the existing explainer: pick schedule via dropdowns, get the cron string
 - [x] **JWT Generator** — complement the decoder; generate HS256/HS384/HS512 tokens client-side for testing
 - [x] **Markdown Table Generator** — paste tab/comma-separated data, get a formatted `| col | col |` Markdown table instantly
-- [ ] **.gitignore Generator** — select your stack (Node, Python, Django, React, Go, Rust, etc.) → get the right `.gitignore` content
+- [x] **.gitignore Generator** — select your stack (Node, Python, Django, React, Go, Rust, etc.) → get the right `.gitignore` content
 
 **Sysadmin / Networking** *(directly useful for managing your server)*
 - [ ] **IP Subnet / CIDR Calculator** — enter a CIDR block (e.g. `10.0.0.0/24`), get network address, broadcast, usable host range, number of hosts — useful when configuring WireGuard subnets

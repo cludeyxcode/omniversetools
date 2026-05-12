@@ -18,6 +18,7 @@ import {
   Sliders,
   Key,
   TableProperties,
+  GitBranch,
 } from 'lucide-react'
 
 const categories = [
@@ -79,6 +80,7 @@ const categories = [
       { path: '/tools/cron-builder',              Icon: Sliders,        title: 'Cron Expression Builder',       desc: 'Build a cron schedule visually — pick options for each field (minute, hour, day, month, weekday) and get the cron string.' },
       { path: '/tools/jwt-generator',             Icon: Key,            title: 'JWT Generator',                  desc: 'Generate signed HS256, HS384, or HS512 JSON Web Tokens in your browser — set payload claims and secret, copy the token.' },
       { path: '/tools/markdown-table-generator',  Icon: TableProperties, title: 'Markdown Table Generator',        desc: 'Paste CSV or tab-separated data and instantly get a formatted | col | col | Markdown table with column alignment options.' },
+      { path: '/tools/gitignore-generator',        Icon: GitBranch,       title: '.gitignore Generator',             desc: 'Select your stack (Node, Python, Go, Rust, Django, Rails, macOS, VS Code…) and get the right .gitignore file instantly.' },
     ],
   },
   {
