@@ -61,6 +61,7 @@ const categories = [
       { path: '/tools/jwt-generator',            label: 'JWT Generator' },
       { path: '/tools/markdown-table-generator', label: 'Markdown Table Generator' },
       { path: '/tools/gitignore-generator',       label: '.gitignore Generator' },
+      { path: '/tools/ip-subnet-calculator',      label: 'IP Subnet / CIDR Calculator' },
     ],
   },
   {

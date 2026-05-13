@@ -53,6 +53,7 @@ import CronBuilder from './pages/tools/CronBuilder'
 import JwtGenerator from './pages/tools/JwtGenerator'
 import MarkdownTableGenerator from './pages/tools/MarkdownTableGenerator'
 import GitignoreGenerator from './pages/tools/GitignoreGenerator'
+import IpSubnetCalculator from './pages/tools/IpSubnetCalculator'
 
 // Lazily loaded — heavier dependencies split into separate chunks
 const MarkdownPreviewer   = lazy(() => import('./pages/tools/MarkdownPreviewer'))
@@ -129,6 +130,7 @@ export default function App() {
             <Route path="/tools/jwt-generator" element={<JwtGenerator />} />
             <Route path="/tools/markdown-table-generator" element={<MarkdownTableGenerator />} />
             <Route path="/tools/gitignore-generator" element={<GitignoreGenerator />} />
+            <Route path="/tools/ip-subnet-calculator" element={<IpSubnetCalculator />} />
             <Route path="/tools/markdown-previewer" element={<MarkdownPreviewer />} />
             <Route path="/tools/diff-checker" element={<DiffChecker />} />
             <Route path="/tools/image-to-base64" element={<ImageToBase64 />} />

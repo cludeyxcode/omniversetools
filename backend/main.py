@@ -93,6 +93,7 @@ TOOL_SLUGS = [
     "jwt-generator",
     "markdown-table-generator",
     "gitignore-generator",
+    "ip-subnet-calculator",
 ]
 
 BASE_URL = "https://omniversetools.com"
