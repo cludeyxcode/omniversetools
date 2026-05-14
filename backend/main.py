@@ -94,6 +94,7 @@ TOOL_SLUGS = [
     "markdown-table-generator",
     "gitignore-generator",
     "ip-subnet-calculator",
+    "port-reference",
 ]
 
 BASE_URL = "https://omniversetools.com"

@@ -62,6 +62,7 @@ const categories = [
       { path: '/tools/markdown-table-generator', label: 'Markdown Table Generator' },
       { path: '/tools/gitignore-generator',       label: '.gitignore Generator' },
       { path: '/tools/ip-subnet-calculator',      label: 'IP Subnet / CIDR Calculator' },
+      { path: '/tools/port-reference',            label: 'Port Number Reference' },
     ],
   },
   {

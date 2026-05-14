@@ -20,6 +20,7 @@ import {
   TableProperties,
   GitBranch,
   Network,
+  Plug,
 } from 'lucide-react'
 
 const categories = [
@@ -83,6 +84,7 @@ const categories = [
       { path: '/tools/markdown-table-generator',  Icon: TableProperties, title: 'Markdown Table Generator',        desc: 'Paste CSV or tab-separated data and instantly get a formatted | col | col | Markdown table with column alignment options.' },
       { path: '/tools/gitignore-generator',        Icon: GitBranch,       title: '.gitignore Generator',             desc: 'Select your stack (Node, Python, Go, Rust, Django, Rails, macOS, VS Code…) and get the right .gitignore file instantly.' },
       { path: '/tools/ip-subnet-calculator',       Icon: Network,         title: 'IP Subnet / CIDR Calculator',      desc: 'Enter a CIDR block like 10.0.0.0/24 to get the network address, broadcast, usable host range, subnet mask, and binary breakdown.' },
+      { path: '/tools/port-reference',             Icon: Plug,            title: 'Port Number Reference',             desc: 'Searchable table of well-known TCP/UDP ports — SSH (22), HTTP (80), MySQL (3306), and 50+ more with protocol and description.' },
     ],
   },
   {
