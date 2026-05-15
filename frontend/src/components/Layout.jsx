@@ -35,6 +35,7 @@ const categories = [
       { path: '/tools/hash-generator',       label: 'Hash Generator' },
       { path: '/tools/number-base-converter',label: 'Number Base Converter' },
       { path: '/tools/json-csv-converter',   label: 'JSON ↔ CSV Converter' },
+      { path: '/tools/base64-image-viewer',  label: 'Base64 Image Data URI Viewer' },
     ],
   },
   {

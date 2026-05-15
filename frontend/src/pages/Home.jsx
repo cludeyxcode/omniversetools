@@ -21,6 +21,7 @@ import {
   GitBranch,
   Network,
   Plug,
+  ScanEye,
 } from 'lucide-react'
 
 const categories = [
@@ -57,6 +58,7 @@ const categories = [
       { path: '/tools/number-base-converter',  Icon: Binary,       title: 'Number Base Converter',      desc: 'Convert numbers between decimal, binary, hex, and octal — type in any field to update all.' },
       { path: '/tools/html-entity-encoder',    Icon: Code,         title: 'HTML Entity Encoder / Decoder', desc: 'Convert special characters like < > & into safe HTML entities — and decode them back.' },
       { path: '/tools/json-csv-converter',     Icon: Table2,       title: 'JSON ↔ CSV Converter',       desc: 'Convert between JSON arrays and CSV format — nested objects are flattened automatically.' },
+      { path: '/tools/base64-image-viewer',    Icon: ScanEye,      title: 'Base64 Image Data URI Viewer', desc: 'Paste a data:image/…;base64,… URI to instantly preview the image and inspect its MIME type, dimensions, and file size.' },
     ],
   },
   {

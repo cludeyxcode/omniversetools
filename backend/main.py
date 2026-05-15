@@ -95,6 +95,7 @@ TOOL_SLUGS = [
     "gitignore-generator",
     "ip-subnet-calculator",
     "port-reference",
+    "base64-image-viewer",
 ]
 
 BASE_URL = "https://omniversetools.com"

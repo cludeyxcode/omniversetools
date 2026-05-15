@@ -236,7 +236,7 @@ All 100% client-side, no external dependencies.
 **Sysadmin / Networking** *(directly useful for managing your server)*
 - [x] **IP Subnet / CIDR Calculator** — enter a CIDR block (e.g. `10.0.0.0/24`), get network address, broadcast, usable host range, number of hosts — useful when configuring WireGuard subnets
 - [x] **Port Number Reference** — searchable table of well-known ports (22 SSH, 80 HTTP, 443 HTTPS, 3306 MySQL, etc.) with protocol and description
-- [ ] **Base64 Image Data URI Viewer** — paste a `data:image/…;base64,…` URI and preview the image; complement to the existing Image to Base64 encoder
+- [x] **Base64 Image Data URI Viewer** — paste a `data:image/…;base64,…` URI and preview the image; complement to the existing Image to Base64 encoder
 
 **File / Data tools** *(ad-hoc data wrangling)*
 - [ ] **CSV Viewer** — drag-drop or paste a CSV, render it as a sortable, searchable table; no data leaves the browser
