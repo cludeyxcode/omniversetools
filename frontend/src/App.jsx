@@ -56,6 +56,7 @@ import GitignoreGenerator from './pages/tools/GitignoreGenerator'
 import IpSubnetCalculator from './pages/tools/IpSubnetCalculator'
 import PortNumberReference from './pages/tools/PortNumberReference'
 import Base64ImageViewer from './pages/tools/Base64ImageViewer'
+import CsvViewer from './pages/tools/CsvViewer'
 
 // Lazily loaded — heavier dependencies split into separate chunks
 const MarkdownPreviewer   = lazy(() => import('./pages/tools/MarkdownPreviewer'))
@@ -135,6 +136,7 @@ export default function App() {
             <Route path="/tools/ip-subnet-calculator" element={<IpSubnetCalculator />} />
             <Route path="/tools/port-reference" element={<PortNumberReference />} />
             <Route path="/tools/base64-image-viewer" element={<Base64ImageViewer />} />
+            <Route path="/tools/csv-viewer" element={<CsvViewer />} />
             <Route path="/tools/markdown-previewer" element={<MarkdownPreviewer />} />
             <Route path="/tools/diff-checker" element={<DiffChecker />} />
             <Route path="/tools/image-to-base64" element={<ImageToBase64 />} />

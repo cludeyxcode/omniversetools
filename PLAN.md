@@ -239,7 +239,7 @@ All 100% client-side, no external dependencies.
 - [x] **Base64 Image Data URI Viewer** — paste a `data:image/…;base64,…` URI and preview the image; complement to the existing Image to Base64 encoder
 
 **File / Data tools** *(ad-hoc data wrangling)*
-- [ ] **CSV Viewer** — drag-drop or paste a CSV, render it as a sortable, searchable table; no data leaves the browser
+- [x] **CSV Viewer** — drag-drop or paste a CSV, render it as a sortable, searchable table; no data leaves the browser
 - [ ] **Image Compressor** — drag-drop JPG/PNG, compress using Canvas API, download result; 100% client-side, no upload
 - [ ] **Unicode / Symbol Search** — searchable table of Unicode characters; click to copy; useful for finding ←→↑↓ © ™ π etc.
 

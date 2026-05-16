@@ -96,6 +96,7 @@ TOOL_SLUGS = [
     "ip-subnet-calculator",
     "port-reference",
     "base64-image-viewer",
+    "csv-viewer",
 ]
 
 BASE_URL = "https://omniversetools.com"

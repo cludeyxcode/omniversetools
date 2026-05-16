@@ -22,6 +22,7 @@ import {
   Network,
   Plug,
   ScanEye,
+  FileSpreadsheet,
 } from 'lucide-react'
 
 const categories = [
@@ -59,6 +60,7 @@ const categories = [
       { path: '/tools/html-entity-encoder',    Icon: Code,         title: 'HTML Entity Encoder / Decoder', desc: 'Convert special characters like < > & into safe HTML entities — and decode them back.' },
       { path: '/tools/json-csv-converter',     Icon: Table2,       title: 'JSON ↔ CSV Converter',       desc: 'Convert between JSON arrays and CSV format — nested objects are flattened automatically.' },
       { path: '/tools/base64-image-viewer',    Icon: ScanEye,      title: 'Base64 Image Data URI Viewer', desc: 'Paste a data:image/…;base64,… URI to instantly preview the image and inspect its MIME type, dimensions, and file size.' },
+      { path: '/tools/csv-viewer',             Icon: FileSpreadsheet, title: 'CSV Viewer',                  desc: 'Drag-drop or paste a CSV file to view it as a sortable, searchable table — all in your browser, no upload.' },
     ],
   },
   {
