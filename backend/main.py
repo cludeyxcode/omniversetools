@@ -97,6 +97,7 @@ TOOL_SLUGS = [
     "port-reference",
     "base64-image-viewer",
     "csv-viewer",
+    "image-compressor",
 ]
 
 BASE_URL = "https://omniversetools.com"

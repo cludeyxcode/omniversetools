@@ -37,6 +37,7 @@ const categories = [
       { path: '/tools/json-csv-converter',   label: 'JSON ↔ CSV Converter' },
       { path: '/tools/base64-image-viewer',  label: 'Base64 Image Data URI Viewer' },
       { path: '/tools/csv-viewer',           label: 'CSV Viewer' },
+      { path: '/tools/image-compressor',    label: 'Image Compressor' },
     ],
   },
   {

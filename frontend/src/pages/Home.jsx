@@ -23,6 +23,7 @@ import {
   Plug,
   ScanEye,
   FileSpreadsheet,
+  ImageDown,
 } from 'lucide-react'
 
 const categories = [
@@ -61,6 +62,7 @@ const categories = [
       { path: '/tools/json-csv-converter',     Icon: Table2,       title: 'JSON ↔ CSV Converter',       desc: 'Convert between JSON arrays and CSV format — nested objects are flattened automatically.' },
       { path: '/tools/base64-image-viewer',    Icon: ScanEye,      title: 'Base64 Image Data URI Viewer', desc: 'Paste a data:image/…;base64,… URI to instantly preview the image and inspect its MIME type, dimensions, and file size.' },
       { path: '/tools/csv-viewer',             Icon: FileSpreadsheet, title: 'CSV Viewer',                  desc: 'Drag-drop or paste a CSV file to view it as a sortable, searchable table — all in your browser, no upload.' },
+      { path: '/tools/image-compressor',       Icon: ImageDown,       title: 'Image Compressor',             desc: 'Compress JPG, PNG, or WebP images in your browser using the Canvas API — pick quality, resize, and download. Nothing is uploaded.' },
     ],
   },
   {
