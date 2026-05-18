@@ -241,7 +241,7 @@ All 100% client-side, no external dependencies.
 **File / Data tools** *(ad-hoc data wrangling)*
 - [x] **CSV Viewer** — drag-drop or paste a CSV, render it as a sortable, searchable table; no data leaves the browser
 - [x] **Image Compressor** — drag-drop JPG/PNG, compress using Canvas API, download result; 100% client-side, no upload
-- [ ] **Unicode / Symbol Search** — searchable table of Unicode characters; click to copy; useful for finding ←→↑↓ © ™ π etc.
+- [x] **Unicode / Symbol Search** — searchable table of Unicode characters; click to copy; useful for finding ←→↑↓ © ™ π etc.
 
 **Skipped (with reason)**
 - ✗ **SSH Key Generator** — private keys should never be generated in a browser context; misleading to offer

@@ -66,6 +66,7 @@ const categories = [
       { path: '/tools/gitignore-generator',       label: '.gitignore Generator' },
       { path: '/tools/ip-subnet-calculator',      label: 'IP Subnet / CIDR Calculator' },
       { path: '/tools/port-reference',            label: 'Port Number Reference' },
+      { path: '/tools/unicode-search',            label: 'Unicode / Symbol Search' },
     ],
   },
   {

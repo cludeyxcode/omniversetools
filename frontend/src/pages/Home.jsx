@@ -24,6 +24,7 @@ import {
   ScanEye,
   FileSpreadsheet,
   ImageDown,
+  Languages,
 } from 'lucide-react'
 
 const categories = [
@@ -91,6 +92,7 @@ const categories = [
       { path: '/tools/gitignore-generator',        Icon: GitBranch,       title: '.gitignore Generator',             desc: 'Select your stack (Node, Python, Go, Rust, Django, Rails, macOS, VS Code…) and get the right .gitignore file instantly.' },
       { path: '/tools/ip-subnet-calculator',       Icon: Network,         title: 'IP Subnet / CIDR Calculator',      desc: 'Enter a CIDR block like 10.0.0.0/24 to get the network address, broadcast, usable host range, subnet mask, and binary breakdown.' },
       { path: '/tools/port-reference',             Icon: Plug,            title: 'Port Number Reference',             desc: 'Searchable table of well-known TCP/UDP ports — SSH (22), HTTP (80), MySQL (3306), and 50+ more with protocol and description.' },
+      { path: '/tools/unicode-search',              Icon: Languages,       title: 'Unicode / Symbol Search',           desc: 'Search 200+ Unicode characters — arrows, math symbols, currency, Greek letters, and more. Click any symbol to copy it.' },
     ],
   },
   {

@@ -98,6 +98,7 @@ TOOL_SLUGS = [
     "base64-image-viewer",
     "csv-viewer",
     "image-compressor",
+    "unicode-search",
 ]
 
 BASE_URL = "https://omniversetools.com"
