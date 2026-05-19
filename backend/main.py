@@ -99,6 +99,7 @@ TOOL_SLUGS = [
     "csv-viewer",
     "image-compressor",
     "unicode-search",
+    "meta-tags-generator",
 ]
 
 BASE_URL = "https://omniversetools.com"
