@@ -100,6 +100,7 @@ TOOL_SLUGS = [
     "image-compressor",
     "unicode-search",
     "meta-tags-generator",
+    "schema-markup-generator",
 ]
 
 BASE_URL = "https://omniversetools.com"

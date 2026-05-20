@@ -60,6 +60,7 @@ import CsvViewer from './pages/tools/CsvViewer'
 import ImageCompressor from './pages/tools/ImageCompressor'
 import UnicodeSearch from './pages/tools/UnicodeSearch'
 import MetaTagsGenerator from './pages/tools/MetaTagsGenerator'
+import SchemaMarkupGenerator from './pages/tools/SchemaMarkupGenerator'
 
 // Lazily loaded — heavier dependencies split into separate chunks
 const MarkdownPreviewer   = lazy(() => import('./pages/tools/MarkdownPreviewer'))
@@ -143,6 +144,7 @@ export default function App() {
             <Route path="/tools/image-compressor" element={<ImageCompressor />} />
             <Route path="/tools/unicode-search" element={<UnicodeSearch />} />
             <Route path="/tools/meta-tags-generator" element={<MetaTagsGenerator />} />
+            <Route path="/tools/schema-markup-generator" element={<SchemaMarkupGenerator />} />
             <Route path="/tools/markdown-previewer" element={<MarkdownPreviewer />} />
             <Route path="/tools/diff-checker" element={<DiffChecker />} />
             <Route path="/tools/image-to-base64" element={<ImageToBase64 />} />

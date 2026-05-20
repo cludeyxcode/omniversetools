@@ -68,6 +68,7 @@ const categories = [
       { path: '/tools/port-reference',            label: 'Port Number Reference' },
       { path: '/tools/unicode-search',            label: 'Unicode / Symbol Search' },
       { path: '/tools/meta-tags-generator',       label: 'Meta / OG Tags Generator' },
+      { path: '/tools/schema-markup-generator',   label: 'Schema Markup Generator' },
     ],
   },
   {

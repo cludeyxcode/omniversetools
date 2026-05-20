@@ -255,7 +255,7 @@ Both platforms have large developer audiences actively searching for niche tools
 
 **Works for both platforms**
 - [x] **Meta / OG Tags Generator** — fill in title, description, image URL, site name, Twitter handle → get the full `<head>` snippet ready to paste; live social card preview in the tool. High SEO value on its own.
-- [ ] **Schema Markup Generator** — pick a schema type (Product, Article, FAQ, LocalBusiness, BreadcrumbList) → fill in fields → get the `<script type="application/ld+json">` block to drop into any page. Works for both WP and Shopify themes.
+- [x] **Schema Markup Generator** — pick a schema type (Product, Article, FAQ, LocalBusiness, BreadcrumbList) → fill in fields → get the `<script type="application/ld+json">` block to drop into any page. Works for both WP and Shopify themes.
 - [ ] **Robots.txt Generator** — platform presets (WordPress, Shopify, generic) + visual rule builder (Allow/Disallow lines, Sitemap pointer) → copy finished `robots.txt`
 - [ ] **301 Redirect Map Builder** — paste a list of old → new URLs (one per line), choose platform, get ready-to-paste `.htaccess` RewriteRules (Apache/WordPress) or Nginx `rewrite` directives or a Shopify URL redirect CSV import file
 

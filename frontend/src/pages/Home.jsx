@@ -26,6 +26,7 @@ import {
   ImageDown,
   Languages,
   Share2,
+  Boxes,
 } from 'lucide-react'
 
 const categories = [
@@ -95,6 +96,7 @@ const categories = [
       { path: '/tools/port-reference',             Icon: Plug,            title: 'Port Number Reference',             desc: 'Searchable table of well-known TCP/UDP ports — SSH (22), HTTP (80), MySQL (3306), and 50+ more with protocol and description.' },
       { path: '/tools/unicode-search',              Icon: Languages,       title: 'Unicode / Symbol Search',           desc: 'Search 200+ Unicode characters — arrows, math symbols, currency, Greek letters, and more. Click any symbol to copy it.' },
       { path: '/tools/meta-tags-generator',          Icon: Share2,          title: 'Meta / OG Tags Generator',          desc: 'Fill in title, description, image URL, and Twitter handle to get the full Open Graph and meta tag snippet — with live social card preview.' },
+      { path: '/tools/schema-markup-generator',      Icon: Boxes,           title: 'Schema Markup Generator',           desc: 'Pick a schema type (Product, Article, FAQ, LocalBusiness, BreadcrumbList), fill in the fields, and get the JSON-LD script block to add to any page.' },
     ],
   },
   {
