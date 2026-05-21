@@ -69,6 +69,7 @@ const categories = [
       { path: '/tools/unicode-search',            label: 'Unicode / Symbol Search' },
       { path: '/tools/meta-tags-generator',       label: 'Meta / OG Tags Generator' },
       { path: '/tools/schema-markup-generator',   label: 'Schema Markup Generator' },
+      { path: '/tools/robots-txt-generator',      label: 'Robots.txt Generator' },
     ],
   },
   {

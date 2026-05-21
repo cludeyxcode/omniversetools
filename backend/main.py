@@ -101,6 +101,7 @@ TOOL_SLUGS = [
     "unicode-search",
     "meta-tags-generator",
     "schema-markup-generator",
+    "robots-txt-generator",
 ]
 
 BASE_URL = "https://omniversetools.com"
