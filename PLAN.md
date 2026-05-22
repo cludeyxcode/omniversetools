@@ -257,7 +257,7 @@ Both platforms have large developer audiences actively searching for niche tools
 - [x] **Meta / OG Tags Generator** — fill in title, description, image URL, site name, Twitter handle → get the full `<head>` snippet ready to paste; live social card preview in the tool. High SEO value on its own.
 - [x] **Schema Markup Generator** — pick a schema type (Product, Article, FAQ, LocalBusiness, BreadcrumbList) → fill in fields → get the `<script type="application/ld+json">` block to drop into any page. Works for both WP and Shopify themes.
 - [x] **Robots.txt Generator** — platform presets (WordPress, Shopify, generic) + visual rule builder (Allow/Disallow lines, Sitemap pointer) → copy finished `robots.txt`
-- [ ] **301 Redirect Map Builder** — paste a list of old → new URLs (one per line), choose platform, get ready-to-paste `.htaccess` RewriteRules (Apache/WordPress) or Nginx `rewrite` directives or a Shopify URL redirect CSV import file
+- [x] **301 Redirect Map Builder** — paste a list of old → new URLs (one per line), choose platform, get ready-to-paste `.htaccess` RewriteRules (Apache/WordPress) or Nginx `rewrite` directives or a Shopify URL redirect CSV import file
 
 **WordPress-specific**
 - [ ] **PHP Serialize / Unserialize** — decode `a:2:{s:3:"foo";s:3:"bar";}` WordPress database values back to readable JSON, and vice versa. Huge for debugging `wp_options`, ACF fields, serialized meta. Pure JS implementation, no PHP needed.

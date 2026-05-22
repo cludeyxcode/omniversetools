@@ -70,6 +70,7 @@ const categories = [
       { path: '/tools/meta-tags-generator',       label: 'Meta / OG Tags Generator' },
       { path: '/tools/schema-markup-generator',   label: 'Schema Markup Generator' },
       { path: '/tools/robots-txt-generator',      label: 'Robots.txt Generator' },
+      { path: '/tools/redirect-map-builder',       label: '301 Redirect Map Builder' },
     ],
   },
   {

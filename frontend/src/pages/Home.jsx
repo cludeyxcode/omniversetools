@@ -28,6 +28,7 @@ import {
   Share2,
   Boxes,
   Bot,
+  Replace,
 } from 'lucide-react'
 
 const categories = [
@@ -99,6 +100,7 @@ const categories = [
       { path: '/tools/meta-tags-generator',          Icon: Share2,          title: 'Meta / OG Tags Generator',          desc: 'Fill in title, description, image URL, and Twitter handle to get the full Open Graph and meta tag snippet — with live social card preview.' },
       { path: '/tools/schema-markup-generator',      Icon: Boxes,           title: 'Schema Markup Generator',           desc: 'Pick a schema type (Product, Article, FAQ, LocalBusiness, BreadcrumbList), fill in the fields, and get the JSON-LD script block to add to any page.' },
       { path: '/tools/robots-txt-generator',         Icon: Bot,             title: 'Robots.txt Generator',              desc: 'Build a robots.txt file visually — start from a WordPress, Shopify, or generic preset, add Allow/Disallow rules, and copy the finished file.' },
+      { path: '/tools/redirect-map-builder',          Icon: Replace,         title: '301 Redirect Map Builder',           desc: 'Paste old → new URL pairs and get .htaccess RewriteRules, Nginx rewrite directives, or a Shopify CSV redirect import file in one click.' },
     ],
   },
   {

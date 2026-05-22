@@ -102,6 +102,7 @@ TOOL_SLUGS = [
     "meta-tags-generator",
     "schema-markup-generator",
     "robots-txt-generator",
+    "redirect-map-builder",
 ]
 
 BASE_URL = "https://omniversetools.com"

@@ -62,6 +62,7 @@ import UnicodeSearch from './pages/tools/UnicodeSearch'
 import MetaTagsGenerator from './pages/tools/MetaTagsGenerator'
 import SchemaMarkupGenerator from './pages/tools/SchemaMarkupGenerator'
 import RobotsTxtGenerator from './pages/tools/RobotsTxtGenerator'
+import RedirectMapBuilder from './pages/tools/RedirectMapBuilder'
 
 // Lazily loaded — heavier dependencies split into separate chunks
 const MarkdownPreviewer   = lazy(() => import('./pages/tools/MarkdownPreviewer'))
@@ -147,6 +148,7 @@ export default function App() {
             <Route path="/tools/meta-tags-generator" element={<MetaTagsGenerator />} />
             <Route path="/tools/schema-markup-generator" element={<SchemaMarkupGenerator />} />
             <Route path="/tools/robots-txt-generator" element={<RobotsTxtGenerator />} />
+            <Route path="/tools/redirect-map-builder" element={<RedirectMapBuilder />} />
             <Route path="/tools/markdown-previewer" element={<MarkdownPreviewer />} />
             <Route path="/tools/diff-checker" element={<DiffChecker />} />
             <Route path="/tools/image-to-base64" element={<ImageToBase64 />} />
