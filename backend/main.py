@@ -103,6 +103,7 @@ TOOL_SLUGS = [
     "schema-markup-generator",
     "robots-txt-generator",
     "redirect-map-builder",
+    "php-serialize",
 ]
 
 BASE_URL = "https://omniversetools.com"

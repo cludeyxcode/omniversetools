@@ -71,6 +71,7 @@ const categories = [
       { path: '/tools/schema-markup-generator',   label: 'Schema Markup Generator' },
       { path: '/tools/robots-txt-generator',      label: 'Robots.txt Generator' },
       { path: '/tools/redirect-map-builder',       label: '301 Redirect Map Builder' },
+      { path: '/tools/php-serialize',              label: 'PHP Serialize / Unserialize' },
     ],
   },
   {

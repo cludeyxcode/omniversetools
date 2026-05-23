@@ -29,6 +29,7 @@ import {
   Boxes,
   Bot,
   Replace,
+  Terminal,
 } from 'lucide-react'
 
 const categories = [
@@ -101,6 +102,7 @@ const categories = [
       { path: '/tools/schema-markup-generator',      Icon: Boxes,           title: 'Schema Markup Generator',           desc: 'Pick a schema type (Product, Article, FAQ, LocalBusiness, BreadcrumbList), fill in the fields, and get the JSON-LD script block to add to any page.' },
       { path: '/tools/robots-txt-generator',         Icon: Bot,             title: 'Robots.txt Generator',              desc: 'Build a robots.txt file visually — start from a WordPress, Shopify, or generic preset, add Allow/Disallow rules, and copy the finished file.' },
       { path: '/tools/redirect-map-builder',          Icon: Replace,         title: '301 Redirect Map Builder',           desc: 'Paste old → new URL pairs and get .htaccess RewriteRules, Nginx rewrite directives, or a Shopify CSV redirect import file in one click.' },
+      { path: '/tools/php-serialize',                 Icon: Terminal,        title: 'PHP Serialize / Unserialize',         desc: 'Decode PHP serialized strings (WordPress wp_options, ACF fields, WooCommerce sessions) to readable JSON — and serialize JSON back to PHP format.' },
     ],
   },
   {
