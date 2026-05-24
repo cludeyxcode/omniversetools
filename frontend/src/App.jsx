@@ -64,6 +64,7 @@ import SchemaMarkupGenerator from './pages/tools/SchemaMarkupGenerator'
 import RobotsTxtGenerator from './pages/tools/RobotsTxtGenerator'
 import RedirectMapBuilder from './pages/tools/RedirectMapBuilder'
 import PhpSerialize from './pages/tools/PhpSerialize'
+import WpPasswordHash from './pages/tools/WpPasswordHash'
 
 // Lazily loaded — heavier dependencies split into separate chunks
 const MarkdownPreviewer   = lazy(() => import('./pages/tools/MarkdownPreviewer'))
@@ -151,6 +152,7 @@ export default function App() {
             <Route path="/tools/robots-txt-generator" element={<RobotsTxtGenerator />} />
             <Route path="/tools/redirect-map-builder" element={<RedirectMapBuilder />} />
             <Route path="/tools/php-serialize" element={<PhpSerialize />} />
+            <Route path="/tools/wp-password-hash" element={<WpPasswordHash />} />
             <Route path="/tools/markdown-previewer" element={<MarkdownPreviewer />} />
             <Route path="/tools/diff-checker" element={<DiffChecker />} />
             <Route path="/tools/image-to-base64" element={<ImageToBase64 />} />

@@ -104,6 +104,7 @@ TOOL_SLUGS = [
     "robots-txt-generator",
     "redirect-map-builder",
     "php-serialize",
+    "wp-password-hash",
 ]
 
 BASE_URL = "https://omniversetools.com"
