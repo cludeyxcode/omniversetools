@@ -262,7 +262,7 @@ Both platforms have large developer audiences actively searching for niche tools
 **WordPress-specific**
 - [x] **PHP Serialize / Unserialize** — decode `a:2:{s:3:"foo";s:3:"bar";}` WordPress database values back to readable JSON, and vice versa. Huge for debugging `wp_options`, ACF fields, serialized meta. Pure JS implementation, no PHP needed.
 - [x] **WordPress Password Hash Generator** — generate `phpass`-compatible hashes that can be pasted directly into `wp_users.user_pass` in the database (for emergency admin recovery). Client-side JS port of phpass.
-- [ ] **.htaccess Generator** — start from the standard WordPress permalink block, then toggle optional security rules: block xmlrpc, hide WordPress version, disable directory listing, set security headers, limit login page access by IP
+- [x] **.htaccess Generator** — start from the standard WordPress permalink block, then toggle optional security rules: block xmlrpc, hide WordPress version, disable directory listing, set security headers, limit login page access by IP
 - [ ] **WordPress Cron Viewer** — paste the raw serialized value of the `cron` option from `wp_options` → decode and display all scheduled events in a clean table (hook name, args, schedule, next run). Saves opening phpMyAdmin.
 
 **Shopify-specific**

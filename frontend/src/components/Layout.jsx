@@ -73,6 +73,7 @@ const categories = [
       { path: '/tools/redirect-map-builder',       label: '301 Redirect Map Builder' },
       { path: '/tools/php-serialize',              label: 'PHP Serialize / Unserialize' },
       { path: '/tools/wp-password-hash',           label: 'WordPress Password Hash Generator' },
+      { path: '/tools/htaccess-generator',         label: '.htaccess Generator' },
     ],
   },
   {
