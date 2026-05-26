@@ -106,6 +106,7 @@ TOOL_SLUGS = [
     "php-serialize",
     "wp-password-hash",
     "htaccess-generator",
+    "wordpress-cron-viewer",
 ]
 
 BASE_URL = "https://omniversetools.com"

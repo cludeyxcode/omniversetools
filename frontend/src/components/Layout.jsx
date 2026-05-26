@@ -74,6 +74,7 @@ const categories = [
       { path: '/tools/php-serialize',              label: 'PHP Serialize / Unserialize' },
       { path: '/tools/wp-password-hash',           label: 'WordPress Password Hash Generator' },
       { path: '/tools/htaccess-generator',         label: '.htaccess Generator' },
+      { path: '/tools/wordpress-cron-viewer',       label: 'WordPress Cron Viewer' },
     ],
   },
   {

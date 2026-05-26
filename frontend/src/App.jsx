@@ -66,6 +66,7 @@ import RedirectMapBuilder from './pages/tools/RedirectMapBuilder'
 import PhpSerialize from './pages/tools/PhpSerialize'
 import WpPasswordHash from './pages/tools/WpPasswordHash'
 import HtaccessGenerator from './pages/tools/HtaccessGenerator'
+import WpCronViewer from './pages/tools/WpCronViewer'
 
 // Lazily loaded — heavier dependencies split into separate chunks
 const MarkdownPreviewer   = lazy(() => import('./pages/tools/MarkdownPreviewer'))
@@ -155,6 +156,7 @@ export default function App() {
             <Route path="/tools/php-serialize" element={<PhpSerialize />} />
             <Route path="/tools/wp-password-hash" element={<WpPasswordHash />} />
             <Route path="/tools/htaccess-generator" element={<HtaccessGenerator />} />
+            <Route path="/tools/wordpress-cron-viewer" element={<WpCronViewer />} />
             <Route path="/tools/markdown-previewer" element={<MarkdownPreviewer />} />
             <Route path="/tools/diff-checker" element={<DiffChecker />} />
             <Route path="/tools/image-to-base64" element={<ImageToBase64 />} />
