@@ -266,7 +266,7 @@ Both platforms have large developer audiences actively searching for niche tools
 - [x] **WordPress Cron Viewer** — paste the raw serialized value of the `cron` option from `wp_options` → decode and display all scheduled events in a clean table (hook name, args, schedule, next run). Saves opening phpMyAdmin.
 
 **Shopify-specific**
-- [ ] **Shopify Variant Matrix** — enter product options and their values (e.g. Size: S / M / L / XL, Colour: Red / Blue) → see all variant combinations generated, total count, and a CSV-ready list. Useful before building out a product in the admin.
+- [x] **Shopify Variant Matrix** — enter product options and their values (e.g. Size: S / M / L / XL, Colour: Red / Blue) → see all variant combinations generated, total count, and a CSV-ready list. Useful before building out a product in the admin.
 - [ ] **Liquid Filter / Tag Reference** — searchable, categorised cheatsheet for all Shopify Liquid filters (`upcase`, `split`, `where`, `map`, `money`, etc.) and tags (`for`, `if`, `paginate`, etc.) with examples. Static — no server needed.
 - [ ] **Shopify Image URL Resizer** — transform a Shopify CDN image URL into any size variant using Shopify's `_300x300`, `_master`, `_2048x2048` etc. URL syntax; shows all common size strings side by side.
 - [ ] **Shopify Metafield Builder** — define namespace + key + type, get the correct metafield reference syntax for Liquid (`product.metafields.custom.my_field`) and the REST/GraphQL API payload — eliminates the docs lookup.

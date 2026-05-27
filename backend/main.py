@@ -107,6 +107,7 @@ TOOL_SLUGS = [
     "wp-password-hash",
     "htaccess-generator",
     "wordpress-cron-viewer",
+    "shopify-variant-matrix",
 ]
 
 BASE_URL = "https://omniversetools.com"
