@@ -68,6 +68,7 @@ import WpPasswordHash from './pages/tools/WpPasswordHash'
 import HtaccessGenerator from './pages/tools/HtaccessGenerator'
 import WpCronViewer from './pages/tools/WpCronViewer'
 import ShopifyVariantMatrix from './pages/tools/ShopifyVariantMatrix'
+import LiquidFilterReference from './pages/tools/LiquidFilterReference'
 
 // Lazily loaded — heavier dependencies split into separate chunks
 const MarkdownPreviewer   = lazy(() => import('./pages/tools/MarkdownPreviewer'))
@@ -159,6 +160,7 @@ export default function App() {
             <Route path="/tools/htaccess-generator" element={<HtaccessGenerator />} />
             <Route path="/tools/wordpress-cron-viewer" element={<WpCronViewer />} />
             <Route path="/tools/shopify-variant-matrix" element={<ShopifyVariantMatrix />} />
+            <Route path="/tools/liquid-filter-reference" element={<LiquidFilterReference />} />
             <Route path="/tools/markdown-previewer" element={<MarkdownPreviewer />} />
             <Route path="/tools/diff-checker" element={<DiffChecker />} />
             <Route path="/tools/image-to-base64" element={<ImageToBase64 />} />

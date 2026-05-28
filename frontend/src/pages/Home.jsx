@@ -34,6 +34,7 @@ import {
   Shield,
   Timer,
   Package,
+  BookMarked,
 } from 'lucide-react'
 
 const categories = [
@@ -111,6 +112,7 @@ const categories = [
       { path: '/tools/htaccess-generator',            Icon: Shield,          title: '.htaccess Generator',                 desc: 'Start from the standard WordPress permalink block, then toggle security rules: block XML-RPC, force HTTPS, restrict login by IP, set security headers, and more.' },
       { path: '/tools/wordpress-cron-viewer',          Icon: Timer,           title: 'WordPress Cron Viewer',               desc: 'Paste the serialized cron value from wp_options to decode and display all scheduled events — hook name, schedule, interval, next run — without opening phpMyAdmin.' },
       { path: '/tools/shopify-variant-matrix',          Icon: Package,         title: 'Shopify Variant Matrix',              desc: 'Enter product options (Size, Colour, etc.) and their values to instantly see every variant combination, total count, and a CSV-ready export for Shopify import.' },
+      { path: '/tools/liquid-filter-reference',          Icon: BookMarked,      title: 'Liquid Filter & Tag Reference',       desc: 'Searchable cheatsheet for all Shopify Liquid filters (upcase, split, where, money…) and tags (for, if, paginate, render…) with syntax and examples.' },
     ],
   },
   {

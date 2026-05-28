@@ -76,6 +76,7 @@ const categories = [
       { path: '/tools/htaccess-generator',         label: '.htaccess Generator' },
       { path: '/tools/wordpress-cron-viewer',       label: 'WordPress Cron Viewer' },
       { path: '/tools/shopify-variant-matrix',      label: 'Shopify Variant Matrix' },
+      { path: '/tools/liquid-filter-reference',      label: 'Liquid Filter & Tag Reference' },
     ],
   },
   {

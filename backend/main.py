@@ -108,6 +108,7 @@ TOOL_SLUGS = [
     "htaccess-generator",
     "wordpress-cron-viewer",
     "shopify-variant-matrix",
+    "liquid-filter-reference",
 ]
 
 BASE_URL = "https://omniversetools.com"
