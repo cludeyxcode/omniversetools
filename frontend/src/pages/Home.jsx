@@ -35,6 +35,7 @@ import {
   Timer,
   Package,
   BookMarked,
+  Scaling,
 } from 'lucide-react'
 
 const categories = [
@@ -113,6 +114,7 @@ const categories = [
       { path: '/tools/wordpress-cron-viewer',          Icon: Timer,           title: 'WordPress Cron Viewer',               desc: 'Paste the serialized cron value from wp_options to decode and display all scheduled events — hook name, schedule, interval, next run — without opening phpMyAdmin.' },
       { path: '/tools/shopify-variant-matrix',          Icon: Package,         title: 'Shopify Variant Matrix',              desc: 'Enter product options (Size, Colour, etc.) and their values to instantly see every variant combination, total count, and a CSV-ready export for Shopify import.' },
       { path: '/tools/liquid-filter-reference',          Icon: BookMarked,      title: 'Liquid Filter & Tag Reference',       desc: 'Searchable cheatsheet for all Shopify Liquid filters (upcase, split, where, money…) and tags (for, if, paginate, render…) with syntax and examples.' },
+      { path: '/tools/shopify-image-resizer',             Icon: Scaling,          title: 'Shopify Image URL Resizer',           desc: 'Paste a Shopify CDN image URL to instantly generate all size variants — _300x300, _master, _2048x2048, named presets, width-only, and crop variants side by side.' },
     ],
   },
   {

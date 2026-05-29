@@ -109,6 +109,7 @@ TOOL_SLUGS = [
     "wordpress-cron-viewer",
     "shopify-variant-matrix",
     "liquid-filter-reference",
+    "shopify-image-resizer",
 ]
 
 BASE_URL = "https://omniversetools.com"
