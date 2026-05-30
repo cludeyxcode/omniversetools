@@ -110,6 +110,7 @@ TOOL_SLUGS = [
     "shopify-variant-matrix",
     "liquid-filter-reference",
     "shopify-image-resizer",
+    "shopify-metafield-builder",
 ]
 
 BASE_URL = "https://omniversetools.com"

@@ -269,7 +269,7 @@ Both platforms have large developer audiences actively searching for niche tools
 - [x] **Shopify Variant Matrix** — enter product options and their values (e.g. Size: S / M / L / XL, Colour: Red / Blue) → see all variant combinations generated, total count, and a CSV-ready list. Useful before building out a product in the admin.
 - [x] **Liquid Filter / Tag Reference** — searchable, categorised cheatsheet for all Shopify Liquid filters (`upcase`, `split`, `where`, `map`, `money`, etc.) and tags (`for`, `if`, `paginate`, etc.) with examples. Static — no server needed.
 - [x] **Shopify Image URL Resizer** — transform a Shopify CDN image URL into any size variant using Shopify's `_300x300`, `_master`, `_2048x2048` etc. URL syntax; shows all common size strings side by side.
-- [ ] **Shopify Metafield Builder** — define namespace + key + type, get the correct metafield reference syntax for Liquid (`product.metafields.custom.my_field`) and the REST/GraphQL API payload — eliminates the docs lookup.
+- [x] **Shopify Metafield Builder** — define namespace + key + type, get the correct metafield reference syntax for Liquid (`product.metafields.custom.my_field`) and the REST/GraphQL API payload — eliminates the docs lookup.
 
 **Skipped (with reason)**
 - ✗ **Liquid Template Preview** — rendering Liquid requires a Shopify server; can't be done client-side

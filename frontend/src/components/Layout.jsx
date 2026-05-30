@@ -78,6 +78,7 @@ const categories = [
       { path: '/tools/shopify-variant-matrix',      label: 'Shopify Variant Matrix' },
       { path: '/tools/liquid-filter-reference',      label: 'Liquid Filter & Tag Reference' },
       { path: '/tools/shopify-image-resizer',         label: 'Shopify Image URL Resizer' },
+      { path: '/tools/shopify-metafield-builder',     label: 'Shopify Metafield Builder' },
     ],
   },
   {

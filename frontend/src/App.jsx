@@ -70,6 +70,7 @@ import WpCronViewer from './pages/tools/WpCronViewer'
 import ShopifyVariantMatrix from './pages/tools/ShopifyVariantMatrix'
 import LiquidFilterReference from './pages/tools/LiquidFilterReference'
 import ShopifyImageResizer from './pages/tools/ShopifyImageResizer'
+import ShopifyMetafieldBuilder from './pages/tools/ShopifyMetafieldBuilder'
 
 // Lazily loaded — heavier dependencies split into separate chunks
 const MarkdownPreviewer   = lazy(() => import('./pages/tools/MarkdownPreviewer'))
@@ -163,6 +164,7 @@ export default function App() {
             <Route path="/tools/shopify-variant-matrix" element={<ShopifyVariantMatrix />} />
             <Route path="/tools/liquid-filter-reference" element={<LiquidFilterReference />} />
             <Route path="/tools/shopify-image-resizer" element={<ShopifyImageResizer />} />
+            <Route path="/tools/shopify-metafield-builder" element={<ShopifyMetafieldBuilder />} />
             <Route path="/tools/markdown-previewer" element={<MarkdownPreviewer />} />
             <Route path="/tools/diff-checker" element={<DiffChecker />} />
             <Route path="/tools/image-to-base64" element={<ImageToBase64 />} />
